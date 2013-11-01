@@ -24,9 +24,8 @@
 
 #import <UIKit/UIKit.h>
 
-// Demo app for http://apphack13seattle-eorg.eventbrite.com/
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ConfirmationViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) UIImage *imageToDisplay;
+@property (strong, nonatomic) NSString *textToDisplay;
 @end

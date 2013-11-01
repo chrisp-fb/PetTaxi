@@ -16,43 +16,41 @@
 		9D4B05FD18235BC800EE8F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4B05FB18235BC800EE8F39 /* Main.storyboard */; };
 		9D4B060018235BC800EE8F39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B05FF18235BC800EE8F39 /* ViewController.m */; };
 		9D4B060218235BC800EE8F39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4B060118235BC800EE8F39 /* Images.xcassets */; };
-		9D4B060918235BC800EE8F39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4B060818235BC800EE8F39 /* XCTest.framework */; };
-		9D4B060A18235BC800EE8F39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4B05E918235BC800EE8F39 /* Foundation.framework */; };
-		9D4B060B18235BC800EE8F39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4B05ED18235BC800EE8F39 /* UIKit.framework */; };
-		9D4B061318235BC800EE8F39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D4B061118235BC800EE8F39 /* InfoPlist.strings */; };
-		9D4B061518235BC800EE8F39 /* TapAPetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B061418235BC800EE8F39 /* TapAPetTests.m */; };
+		9D4B061F18235D3300EE8F39 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4B061E18235D3300EE8F39 /* MapKit.framework */; };
+		9D4B062B182377E100EE8F39 /* lizard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4B0628182377E100EE8F39 /* lizard@2x.png */; };
+		9D4B062C182377E100EE8F39 /* puppy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4B0629182377E100EE8F39 /* puppy@2x.png */; };
+		9D4B063118237AB500EE8F39 /* kitten@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4B062F18237AB500EE8F39 /* kitten@2x.png */; };
+		9D4B063518237BAE00EE8F39 /* kitten.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4B063218237BAE00EE8F39 /* kitten.png */; };
+		9D4B063618237BAE00EE8F39 /* lizard.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4B063318237BAE00EE8F39 /* lizard.png */; };
+		9D4B063718237BAE00EE8F39 /* puppy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4B063418237BAE00EE8F39 /* puppy.png */; };
+		9D4B063D18237F0400EE8F39 /* ConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B063C18237F0400EE8F39 /* ConfirmationViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9D4B060C18235BC800EE8F39 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9D4B05DE18235BC800EE8F39 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D4B05E518235BC800EE8F39;
-			remoteInfo = TapAPet;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		9D4B05E618235BC800EE8F39 /* TapAPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapAPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4B05E618235BC800EE8F39 /* PetTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4B05E918235BC800EE8F39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9D4B05EB18235BC800EE8F39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9D4B05ED18235BC800EE8F39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9D4B05F118235BC800EE8F39 /* TapAPet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapAPet-Info.plist"; sourceTree = "<group>"; };
+		9D4B05F118235BC800EE8F39 /* PetTaxi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PetTaxi-Info.plist"; sourceTree = "<group>"; };
 		9D4B05F318235BC800EE8F39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D4B05F518235BC800EE8F39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9D4B05F718235BC800EE8F39 /* TapAPet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapAPet-Prefix.pch"; sourceTree = "<group>"; };
+		9D4B05F718235BC800EE8F39 /* PetTaxi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PetTaxi-Prefix.pch"; sourceTree = "<group>"; };
 		9D4B05F818235BC800EE8F39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D4B05F918235BC800EE8F39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9D4B05FC18235BC800EE8F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D4B05FE18235BC800EE8F39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9D4B05FF18235BC800EE8F39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D4B060118235BC800EE8F39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9D4B060718235BC800EE8F39 /* TapAPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapAPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4B060818235BC800EE8F39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9D4B061018235BC800EE8F39 /* TapAPetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapAPetTests-Info.plist"; sourceTree = "<group>"; };
-		9D4B061218235BC800EE8F39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9D4B061418235BC800EE8F39 /* TapAPetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapAPetTests.m; sourceTree = "<group>"; };
+		9D4B061E18235D3300EE8F39 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9D4B0628182377E100EE8F39 /* lizard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lizard@2x.png"; sourceTree = "<group>"; };
+		9D4B0629182377E100EE8F39 /* puppy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "puppy@2x.png"; sourceTree = "<group>"; };
+		9D4B062F18237AB500EE8F39 /* kitten@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kitten@2x.png"; sourceTree = "<group>"; };
+		9D4B063218237BAE00EE8F39 /* kitten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kitten.png; sourceTree = "<group>"; };
+		9D4B063318237BAE00EE8F39 /* lizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lizard.png; sourceTree = "<group>"; };
+		9D4B063418237BAE00EE8F39 /* puppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puppy.png; sourceTree = "<group>"; };
+		9D4B063B18237F0400EE8F39 /* ConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmationViewController.h; sourceTree = "<group>"; };
+		9D4B063C18237F0400EE8F39 /* ConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,19 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4B061F18235D3300EE8F39 /* MapKit.framework in Frameworks */,
 				9D4B05EC18235BC800EE8F39 /* CoreGraphics.framework in Frameworks */,
 				9D4B05EE18235BC800EE8F39 /* UIKit.framework in Frameworks */,
 				9D4B05EA18235BC800EE8F39 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D4B060418235BC800EE8F39 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D4B060918235BC800EE8F39 /* XCTest.framework in Frameworks */,
-				9D4B060B18235BC800EE8F39 /* UIKit.framework in Frameworks */,
-				9D4B060A18235BC800EE8F39 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +71,7 @@
 		9D4B05DD18235BC800EE8F39 = {
 			isa = PBXGroup;
 			children = (
-				9D4B05EF18235BC800EE8F39 /* TapAPet */,
-				9D4B060E18235BC800EE8F39 /* TapAPetTests */,
+				9D4B05EF18235BC800EE8F39 /* PetTaxi */,
 				9D4B05E818235BC800EE8F39 /* Frameworks */,
 				9D4B05E718235BC800EE8F39 /* Products */,
 			);
@@ -92,8 +80,7 @@
 		9D4B05E718235BC800EE8F39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D4B05E618235BC800EE8F39 /* TapAPet.app */,
-				9D4B060718235BC800EE8F39 /* TapAPetTests.xctest */,
+				9D4B05E618235BC800EE8F39 /* PetTaxi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +88,7 @@
 		9D4B05E818235BC800EE8F39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D4B061E18235D3300EE8F39 /* MapKit.framework */,
 				9D4B05E918235BC800EE8F39 /* Foundation.framework */,
 				9D4B05EB18235BC800EE8F39 /* CoreGraphics.framework */,
 				9D4B05ED18235BC800EE8F39 /* UIKit.framework */,
@@ -109,9 +97,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9D4B05EF18235BC800EE8F39 /* TapAPet */ = {
+		9D4B05EF18235BC800EE8F39 /* PetTaxi */ = {
 			isa = PBXGroup;
 			children = (
+				9D4B06271823764300EE8F39 /* images */,
 				9D4B05F818235BC800EE8F39 /* AppDelegate.h */,
 				9D4B05F918235BC800EE8F39 /* AppDelegate.m */,
 				9D4B05FB18235BC800EE8F39 /* Main.storyboard */,
@@ -119,45 +108,43 @@
 				9D4B05FF18235BC800EE8F39 /* ViewController.m */,
 				9D4B060118235BC800EE8F39 /* Images.xcassets */,
 				9D4B05F018235BC800EE8F39 /* Supporting Files */,
+				9D4B063B18237F0400EE8F39 /* ConfirmationViewController.h */,
+				9D4B063C18237F0400EE8F39 /* ConfirmationViewController.m */,
 			);
+			name = PetTaxi;
 			path = TapAPet;
 			sourceTree = "<group>";
 		};
 		9D4B05F018235BC800EE8F39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9D4B05F118235BC800EE8F39 /* TapAPet-Info.plist */,
+				9D4B05F118235BC800EE8F39 /* PetTaxi-Info.plist */,
 				9D4B05F218235BC800EE8F39 /* InfoPlist.strings */,
 				9D4B05F518235BC800EE8F39 /* main.m */,
-				9D4B05F718235BC800EE8F39 /* TapAPet-Prefix.pch */,
+				9D4B05F718235BC800EE8F39 /* PetTaxi-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9D4B060E18235BC800EE8F39 /* TapAPetTests */ = {
+		9D4B06271823764300EE8F39 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				9D4B061418235BC800EE8F39 /* TapAPetTests.m */,
-				9D4B060F18235BC800EE8F39 /* Supporting Files */,
+				9D4B063218237BAE00EE8F39 /* kitten.png */,
+				9D4B063318237BAE00EE8F39 /* lizard.png */,
+				9D4B063418237BAE00EE8F39 /* puppy.png */,
+				9D4B062F18237AB500EE8F39 /* kitten@2x.png */,
+				9D4B0628182377E100EE8F39 /* lizard@2x.png */,
+				9D4B0629182377E100EE8F39 /* puppy@2x.png */,
 			);
-			path = TapAPetTests;
-			sourceTree = "<group>";
-		};
-		9D4B060F18235BC800EE8F39 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9D4B061018235BC800EE8F39 /* TapAPetTests-Info.plist */,
-				9D4B061118235BC800EE8F39 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D4B05E518235BC800EE8F39 /* TapAPet */ = {
+		9D4B05E518235BC800EE8F39 /* PetTaxi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D4B061818235BC800EE8F39 /* Build configuration list for PBXNativeTarget "TapAPet" */;
+			buildConfigurationList = 9D4B061818235BC800EE8F39 /* Build configuration list for PBXNativeTarget "PetTaxi" */;
 			buildPhases = (
 				9D4B05E218235BC800EE8F39 /* Sources */,
 				9D4B05E318235BC800EE8F39 /* Frameworks */,
@@ -167,28 +154,10 @@
 			);
 			dependencies = (
 			);
-			name = TapAPet;
+			name = PetTaxi;
 			productName = TapAPet;
-			productReference = 9D4B05E618235BC800EE8F39 /* TapAPet.app */;
+			productReference = 9D4B05E618235BC800EE8F39 /* PetTaxi.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9D4B060618235BC800EE8F39 /* TapAPetTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D4B061B18235BC800EE8F39 /* Build configuration list for PBXNativeTarget "TapAPetTests" */;
-			buildPhases = (
-				9D4B060318235BC800EE8F39 /* Sources */,
-				9D4B060418235BC800EE8F39 /* Frameworks */,
-				9D4B060518235BC800EE8F39 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D4B060D18235BC800EE8F39 /* PBXTargetDependency */,
-			);
-			name = TapAPetTests;
-			productName = TapAPetTests;
-			productReference = 9D4B060718235BC800EE8F39 /* TapAPetTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,13 +167,8 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Chris Pan";
-				TargetAttributes = {
-					9D4B060618235BC800EE8F39 = {
-						TestTargetID = 9D4B05E518235BC800EE8F39;
-					};
-				};
 			};
-			buildConfigurationList = 9D4B05E118235BC800EE8F39 /* Build configuration list for PBXProject "TapAPet" */;
+			buildConfigurationList = 9D4B05E118235BC800EE8F39 /* Build configuration list for PBXProject "PetTaxi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D4B05E518235BC800EE8F39 /* TapAPet */,
-				9D4B060618235BC800EE8F39 /* TapAPetTests */,
+				9D4B05E518235BC800EE8F39 /* PetTaxi */,
 			);
 		};
 /* End PBXProject section */
@@ -229,16 +192,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D4B060218235BC800EE8F39 /* Images.xcassets in Resources */,
+				9D4B063518237BAE00EE8F39 /* kitten.png in Resources */,
+				9D4B063118237AB500EE8F39 /* kitten@2x.png in Resources */,
+				9D4B063618237BAE00EE8F39 /* lizard.png in Resources */,
 				9D4B05F418235BC800EE8F39 /* InfoPlist.strings in Resources */,
 				9D4B05FD18235BC800EE8F39 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D4B060518235BC800EE8F39 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D4B061318235BC800EE8F39 /* InfoPlist.strings in Resources */,
+				9D4B062B182377E100EE8F39 /* lizard@2x.png in Resources */,
+				9D4B063718237BAE00EE8F39 /* puppy.png in Resources */,
+				9D4B062C182377E100EE8F39 /* puppy@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,26 +213,11 @@
 				9D4B060018235BC800EE8F39 /* ViewController.m in Sources */,
 				9D4B05FA18235BC800EE8F39 /* AppDelegate.m in Sources */,
 				9D4B05F618235BC800EE8F39 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D4B060318235BC800EE8F39 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D4B061518235BC800EE8F39 /* TapAPetTests.m in Sources */,
+				9D4B063D18237F0400EE8F39 /* ConfirmationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9D4B060D18235BC800EE8F39 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9D4B05E518235BC800EE8F39 /* TapAPet */;
-			targetProxy = 9D4B060C18235BC800EE8F39 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9D4B05F218235BC800EE8F39 /* InfoPlist.strings */ = {
@@ -288,14 +234,6 @@
 				9D4B05FC18235BC800EE8F39 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9D4B061118235BC800EE8F39 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D4B061218235BC800EE8F39 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -379,8 +317,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TapAPet/TapAPet-Prefix.pch";
-				INFOPLIST_FILE = "TapAPet/TapAPet-Info.plist";
+				GCC_PREFIX_HEADER = "TapAPet/PetTaxi-Prefix.pch";
+				INFOPLIST_FILE = "TapAPet/PetTaxi-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,59 +330,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TapAPet/TapAPet-Prefix.pch";
-				INFOPLIST_FILE = "TapAPet/TapAPet-Info.plist";
+				GCC_PREFIX_HEADER = "TapAPet/PetTaxi-Prefix.pch";
+				INFOPLIST_FILE = "TapAPet/PetTaxi-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		9D4B061C18235BC800EE8F39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapAPet.app/TapAPet";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TapAPet/TapAPet-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TapAPetTests/TapAPetTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		9D4B061D18235BC800EE8F39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapAPet.app/TapAPet";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TapAPet/TapAPet-Prefix.pch";
-				INFOPLIST_FILE = "TapAPetTests/TapAPetTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D4B05E118235BC800EE8F39 /* Build configuration list for PBXProject "TapAPet" */ = {
+		9D4B05E118235BC800EE8F39 /* Build configuration list for PBXProject "PetTaxi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D4B061618235BC800EE8F39 /* Debug */,
@@ -453,19 +349,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D4B061818235BC800EE8F39 /* Build configuration list for PBXNativeTarget "TapAPet" */ = {
+		9D4B061818235BC800EE8F39 /* Build configuration list for PBXNativeTarget "PetTaxi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D4B061918235BC800EE8F39 /* Debug */,
 				9D4B061A18235BC800EE8F39 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		9D4B061B18235BC800EE8F39 /* Build configuration list for PBXNativeTarget "TapAPetTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D4B061C18235BC800EE8F39 /* Debug */,
-				9D4B061D18235BC800EE8F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

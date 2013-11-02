@@ -22,12 +22,16 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
+#import <FacebookSDK/FacebookSDK.h>
 #import "AppDelegate.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Explicitly reference the FBLoginView class to solve linker issue when using custom controls in interface builder.
+    [FBLoginView class];
+    
     // Override point for customization after application launch.
     return YES;
 }
@@ -51,7 +55,8 @@ SOFTWARE.
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    // Wire up Facebook SDK
+    [FBAppCall handleDidBecomeActive];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
@@ -59,4 +64,8 @@ SOFTWARE.
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (BOOL) application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    // Wire up Facebook SDK
+    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
+}
 @end

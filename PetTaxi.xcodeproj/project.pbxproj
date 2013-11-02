@@ -24,6 +24,7 @@
 		9D4B063618237BAE00EE8F39 /* lizard.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4B063318237BAE00EE8F39 /* lizard.png */; };
 		9D4B063718237BAE00EE8F39 /* puppy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4B063418237BAE00EE8F39 /* puppy.png */; };
 		9D4B063D18237F0400EE8F39 /* ConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B063C18237F0400EE8F39 /* ConfirmationViewController.m */; };
+		9DC14E041825946C00AE5661 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC14E031825946C00AE5661 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		9D4B063418237BAE00EE8F39 /* puppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puppy.png; sourceTree = "<group>"; };
 		9D4B063B18237F0400EE8F39 /* ConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmationViewController.h; sourceTree = "<group>"; };
 		9D4B063C18237F0400EE8F39 /* ConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmationViewController.m; sourceTree = "<group>"; };
+		9DC14E031825946C00AE5661 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D4B061F18235D3300EE8F39 /* MapKit.framework in Frameworks */,
+				9DC14E041825946C00AE5661 /* FacebookSDK.framework in Frameworks */,
 				9D4B05EC18235BC800EE8F39 /* CoreGraphics.framework in Frameworks */,
 				9D4B05EE18235BC800EE8F39 /* UIKit.framework in Frameworks */,
 				9D4B05EA18235BC800EE8F39 /* Foundation.framework in Frameworks */,
@@ -88,6 +91,7 @@
 		9D4B05E818235BC800EE8F39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9DC14E031825946C00AE5661 /* FacebookSDK.framework */,
 				9D4B061E18235D3300EE8F39 /* MapKit.framework */,
 				9D4B05E918235BC800EE8F39 /* Foundation.framework */,
 				9D4B05EB18235BC800EE8F39 /* CoreGraphics.framework */,
@@ -316,6 +320,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/chrisp/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapAPet/PetTaxi-Prefix.pch";
 				INFOPLIST_FILE = "TapAPet/PetTaxi-Info.plist";
@@ -329,6 +337,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/chrisp/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapAPet/PetTaxi-Prefix.pch";
 				INFOPLIST_FILE = "TapAPet/PetTaxi-Info.plist";
@@ -356,6 +368,7 @@
 				9D4B061A18235BC800EE8F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

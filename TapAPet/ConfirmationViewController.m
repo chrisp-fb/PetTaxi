@@ -22,6 +22,7 @@
  SOFTWARE.
  */
 
+#import <FacebookSDK/FacebookSDK.h>
 #import <UIKit/UIKit.h>
 #import "ConfirmationViewController.h"
 
@@ -62,12 +63,29 @@
 }
 
 - (IBAction)confirmButtonTouch:(id)sender {
-    [[[UIAlertView alloc] initWithTitle:@"Thanks" message:@"The pets are on their way!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
+    [[[UIAlertView alloc] initWithTitle:@"Thanks" message:@"The pets are on their way!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Share", nil] show];
 }
 
 #pragma mark - UIAlertViewDelegate
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 1) {
+        id pet = [FBGraphObject openGraphObjectForPostWithType:@"pextaxi:pet" title:self.navigationItem.title image:nil url:nil description:nil];
+        id action = [FBGraphObject openGraphActionForPost];
+        action[@"pet"] = pet;
+        FBOpenGraphActionShareDialogParams *params = [FBOpenGraphActionShareDialogParams new];
+        params.action = action;
+        params.actionType = @"pextaxi:hire";
+        params.previewPropertyName = @"pet";
+
+        if ([FBDialogs canPresentShareDialogWithOpenGraphActionParams:params]) {
+            [FBDialogs presentShareDialogWithOpenGraphActionParams:params clientState:nil handler:^(FBAppCall *call, NSDictionary *results, NSError *error) {
+                if (error) {
+                    NSLog(@"error:%@", error);
+                }
+            }];
+        }        
+    }
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 @end

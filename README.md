@@ -16,9 +16,9 @@ To run the app with Facebook integration, you need to configure
 an appropriate app on http://developers.facebook.com/apps,
 specifically
 
-1. name as "PetTaxi".
-2. an iOS app with a bundle id of "PetTaxi".
-3. set a namespace.
+1. name as "PetTaxi"
+2. an iOS app with a bundle id of "PetTaxi"
+3. set a namespace
 4. add an open graph story of "hire pet".
 5. link the Facebook SDK framework in the app correctly.
 

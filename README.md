@@ -23,4 +23,4 @@ specifically
 5. link the Facebook SDK framework in the app correctly.
 
 For more details about Facebook integration or learn more, check
-out http://developers.facebook.com/ios
+out http://developers.facebook.com/ios .
